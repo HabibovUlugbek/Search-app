@@ -1,0 +1,56 @@
+body {
+  background-color: #f5f5f5;
+}
+
+#root {
+  margin: 0 auto;
+  width: 90%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+@media screen and (min-width: 510px) {
+  #root {
+    width: 500px;
+  }
+}
+
+.search-bar input {
+  height: 20px;
+  width: 90%;
+  outline: none;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 5px; 
+  background-color: turquoise;
+}
+
+.result {
+  margin-bottom: 50px;
+}
+.heading {
+  margin: 5px 0;
+}
+.link {
+  color: rgb(111, 196, 204);
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+  color: rgb(57, 57, 194);
+}
+.price {
+  color: #5c5757;
+  padding: 3px;
+  font-weight: bold;
+  margin: 0;
+}
+.description {
+  color: #333333;
+  font-weight: normal;
+  font-family:  sans-serif;
+}
+.heading {
+  text-align: center;
+  color: #067e9c;
+}
